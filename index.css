@@ -5,15 +5,31 @@ body {
     background-size: cover;
     text-align: center;
     color: white;
-    font-size: 28px;
+    font-size: 45px;
     font-weight: bold;
+
+
+
     
 }
 
 h1 {
     color: goldenrod;
+    -webkit-text-stroke: 2px #ffc600;
+
 }
 
 #message-el {
     font-style: italic;
+}
+
+button {
+    color: #1c2321;
+    font-weight: bold;
+    background-color: goldenrod;
+    padding: 5px;
+    font-size: 45px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
 }
