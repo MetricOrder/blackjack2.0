@@ -23,3 +23,7 @@ function startGame() {
     }
     messageEl.textContent = message
 }
+
+function newCard() {
+    messageEl.textContent = "Drawing new card..."
+}
