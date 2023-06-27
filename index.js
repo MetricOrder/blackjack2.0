@@ -14,7 +14,8 @@ function startGame() {
 }
 
 function getRandomCard() {
-    return Math.floor ( Math.random() * 13 ) +1 
+    let randomCard = Math.floor ( Math.random() * 13 ) +1
+    return randomCard 
 }
 
 function renderGame() {
