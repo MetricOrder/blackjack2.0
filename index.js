@@ -1,3 +1,7 @@
+let player = {
+    name: "Player 1",
+    chips: 1000
+}
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -6,6 +10,8 @@ let message = ""
 let messageEl = document.querySelector("#message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
+let playerEl = document.querySelector("#player-el")
+playerEl.textContent = player.name + ": $" + player.chips
 
 function startGame() {
     isAlive = true
@@ -44,6 +50,7 @@ function renderGame() {
         isAlive = false
     }
     messageEl.textContent = message
+    
 }
 
 function newCard() {
